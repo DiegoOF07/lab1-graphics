@@ -40,6 +40,10 @@ impl Framebuffer {
         }
     }
 
+    pub fn get_width(&self) -> u32{
+        return self.width;
+    }
+
     pub fn set_background_color(&mut self, color: Color) {
         self.background_color = color;
     }
